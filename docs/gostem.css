@@ -1,0 +1,147 @@
+font-family: 'Raleway', sans-serif;/* navigation */
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;: 'Lato', sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* heading */
+#heading h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+#heading img{
+  display: block;
+  padding-top: 50px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section Heading */
+.image{
+  float: left;
+  width: 20%;
+  margin-right: 3%;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.image2{
+  float: right;
+  width: 20%;
+  margin-right: 3%;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.say img{
+  height: 400px;
+  width: 400px;
+}
+
+section .comment{
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+/*Floating Javascript */
+.floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+/* sections */
+
+section:nth-child(2n+1) {
+  color:#FFFFFF;
+  background: #2EC0F9;
+  margin: 0 auto;
+}
+
+section:nth-child(2n+2) {
+  color: #000000;
+  background-image: url("http://bit.ly/2x7T6xF");
+  margin: 0 auto;
+}
+
+.content-wrap{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px 0;
+  overflow: auto;
+}
+/*table and links*/
+table{
+  width:100%;
+}
+a{
+  font-family: 'Raleway', sans-serif;: 'Lato', sans-serif;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+a:visited{
+  color: #FFFFFF;
+}
+
+/*fonts*/
+h1, h2{
+  font-family: 'Questrial', sans-serif;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
