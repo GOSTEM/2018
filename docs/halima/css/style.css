@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+font-family: 'Marck Script', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+background-color:#ee4840 	;
+overflow: hidden;
+}
+
+
+.loves {
+  background-color: #ff0000 ;
+
+}
+
+header{
+    background-color:grey ;
+  }
+
+footer{
+  background-color: black;
+}
+  header,
+  section,
+  footer
+  {
+    padding: 100px 150px;
+
+  }
+  .loves,
+  footer {
+    text-align: center;
+  }
+  .profile-img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 57%;
+}
+img{
+height:px;
+border:30px;
+border-radius:100%;
+
+}
