@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 33px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+ol {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+header {
+  background: #CFD1D1;
+}
+
+footer {
+  background: #BAB8BA;
+  text-align: center;
+}
+
+.family {
+  background: #FFB6C1;
+  text-align: center;
+}
+
+.Facts {
+  background: #DB7093;
+  color: white;
+}
+ol {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header,
+section,
+footer {
+  padding: 50px 150px;
+}
+
+section,
+footer {
+  padding: 100px 250px;
+}
+
+footer {
+  margin: 0px;
+
+}
+
+strong {
+  color:#DB7093;
+}
+
+.Gia {
+  border-radius: 50%;
+}
+
+.Mom {
+  border-radius: 50%;
+}
+
+.Dad {
+  border-radius: 50%;
+}
+
+.Lucky {
+  border-radius: 50%;
+}

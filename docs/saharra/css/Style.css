@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 33px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+header {
+  background: #CFD1D1;
+}
+
+footer {
+  background: #BAB8BA;
+  text-align: center;
+}
+
+.About {
+  background: #FFB6C1;
+  overflow: hidden;
+}
+
+.Loves {
+  background: #DB7093;
+color: white;
+}
+
+header,
+section,
+footer {
+  padding: 50px 150px;
+}
+
+section,
+footer {
+  padding: 100px 250px;
+}
+
+strong {
+  color: #DB7093;
+}
+
+.canada {
+  background: white;
+  margin: 10px 340px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+.volleyball {
+  background: white;
+  margin: 10px 320px;
+  padding: 50px 60px;
+  border-radius: 95%;
+
+}
+
+.profile-img {
+  float: right;
+  border-radius: 70%;
+  margin-left: 50px;
+}
+
+.art {
+  background: white;
+  margin: 10px 320px;
+  padding: 10px 55px;
+  border-radius: 50%;
+}
+
+.profile-img,
+.volleyball,
+.art,
+.canada {
+  border:9px solid #6C6F70;
+}
+
+
+li {
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+
+ul {
+    background-color: #696969;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 630px;
+    overflow: hidden;
+    background-color: #696969;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #DB7093;
+}
+
+.active {
+    background-color: #FFC0CB;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #A9A9A9;
+}
+
+li:last-child {
+    border-right: none;
+}
