@@ -1,0 +1,83 @@
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 75px;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.about{
+  background-color: #FFDAB9;
+  overflow: hidden;
+}
+.loves{
+  background-color: #D1FFFF;
+  overflow: hidden;
+}
+header{
+  background-color: #FFF0F5;
+}
+footer{
+  background-color: #F0FFF0;
+}
+header,
+footer,
+section{
+padding:100px 150px;
+}
+.loves,
+footer {
+  text-align: center;
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+p {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+div {
+    height: 200px;
+    width: 20%;
+    background-color: powderblue;
+}
+@keyframes example {
+    from {background-color: powderblue;}
+    to {background-color: yellow;}
+}
+.profile-img{
+  float: right;
+  margin-left:20px;
+}
+img{
+  height:100px;
+  border:90px;
+  border-radius:90;
+}
+body {
+    color: red;
+}
+
+h1 {
+    color: Black;
+}
+h2{
+  color: powderblue;
+}
+h3{
+  color:purple;
+}
+h1 {
+    text-align: center;
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
