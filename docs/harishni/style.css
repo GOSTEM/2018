@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+font-family: 'Roboto Slab', serif;
+margin: 0;
+padding: 0;
+}
+ .about {
+  background-color: palevioletred;
+  overflow:hidden;
+}
+
+ .loves {
+  background-color: rgb(245,255,250)
+  overflow:hidden;
+}
+footer {
+  background-color: rgb(255,218,185)
+}
+
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+
+.loves,
+footer {
+  text-align: center;
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+}
+img{
+  height: 500px;
+  border:500px;
+  border-radius:0%;
+}
+.smaller {
+  height:400px;
+  width:400px;
+}
