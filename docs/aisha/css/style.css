@@ -48,7 +48,19 @@ body {
 .deku-img {
   width:700px;
 }
-.instagram-img{
+.instagram{
   height:125px;
+  object-fit:cover;
   border-radius:100%;
 }
+.twitter{
+  height:125px;
+  object-fit:cover;
+  border-radius:100%;
+}
+.linkedin{
+  height:125px;
+  object-fit:cover;
+  border-radius:100%;
+}
+
