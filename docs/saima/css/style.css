@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.About {
+  background-color: lightseagreen;
+  overflow: hidden;
+}
+.loves {
+  background-color: teal;
+}
+header {
+  background-color: mediumaquamarine;
+}
+footer {
+  background-color: slategray;
+}
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+.loves,
+footer {
+  text-align: center;
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  height:400px;
+  width: 400px
+  border-radius: 100%;
+}
+.codesister {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 30px white;
+}
+.homelibrary {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 30px white;
+}
+.nysunrise {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 30px white;
+}
