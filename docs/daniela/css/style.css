@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body
+{
+  font-family: 'Fredericka the Great', cursive;
+  background-color:#F9CB40;
+  margin:0;
+  padding:0;
+}
+
+
+.about{
+  background:#FF715B;
+  overflow: hidden;
+}
+
+
+header{
+  background-color: #F9CB40;
+}
+
+.loves{
+  background-color: #9BE564;
+}
+
+footer{
+  background-color:#18b5d8;
+}
+#ff4040
+header,
+section,
+footer{
+  padding: 100px 150px;
+}
+
+.loves,
+footer {
+  text-align: center;
+}
+
+
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 6px solid #f8f8ff;
+}
+
+.mountaincat{
+  border-radius: 50%;
+}
