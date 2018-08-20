@@ -1,0 +1,52 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  }
+.about {
+      background-color: #B2F7EF;
+      overflow: hidden;
+}
+.loves {
+  background-color: #7BDFF2;
+}
+ footer {
+  background-color: #F2B5D4;
+}
+ header {
+   background-color: #EF798A;
+ }
+ header,
+  section,
+  footer {
+   padding: 100px 150px;
+ }
+ .loves,
+ footer {
+   text-align: center;
+     overflow: hidden;
+ }
+ .profile-img {
+  float: right;
+  margin-left: 20px;
+ }
+ img {
+    padding:1px;
+    border:2px #FFEAE8;
+    background-color:#FFEAE8;
+ }
+.todoroki-img {
+  height: 500px;
+  border: 50px;
+}
+
+.slytherclaw-img {
+  height: 400px;
+}
+.heir-img {
+  height: 500px;
+}
+.deku-img {
+  width:700px;
+}
+.instagram-img{
+  height:125px;
+}
