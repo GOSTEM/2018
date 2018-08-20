@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Rock Salt', cursive;
+}
+.about{
+  background-color: #66CDAA
+  overflow: hidden;
+}
+.loves{
+  background-color: #008B8B
+
+}
+header{
+  background-color: #778899
+}
+footer{
+  background-color: #9370DB
+}
+header,
+footer,
+section {
+  padding: 100px 150px;
+}
+.loves,
+footer {
+  text-align: center;
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  max-height: 250px;
+max-width: 350px;
+width: 500px;
+height: 350px;
+}
+.beach,
+.cake{
+  margin-left: 20px;
+  max-height: 250px;
+max-width: 350px;
+width: 450px;
+height: 450px;
+}
+
+.coraline{
+  margin-left: 20px;
+  max-height: 250px;
+max-width: 350px;
+width: 500px;
+height: 350px;
+}
