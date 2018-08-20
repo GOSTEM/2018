@@ -27,6 +27,7 @@ body {
  .profile-img {
   float: right;
   margin-left: 20px;
+  max-width:200px;
  }
  img {
     padding:1px;
@@ -49,4 +50,5 @@ body {
 }
 .instagram-img{
   height:125px;
+  border-radius:100%;
 }
