@@ -34,6 +34,9 @@ footer {
   float: right;
   margin-left: 20px;
   max-height: 300px;
+  max-width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius:100%;
   object-fit:cover;
 }
