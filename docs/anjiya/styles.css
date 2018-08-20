@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/buildings.jpg) no-repeat fixed;
+}
+
+.head {
+background: lightblue;
+}
+
+footer{
+  background-color: #17543c;
+}
+
+h1,
+h2{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.aboutMe {
+  background-color: #152287;
+  overflow: hidden;
+}
+
+.Love {
+  background-color: rgb(96, 19, 140);
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  height: 30%;
+  width: 30%;
+}
+
+header,
+footer,
+section {
+  padding: 100px 150px;
+  text-align: center;
+
+}
