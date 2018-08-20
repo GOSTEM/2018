@@ -8,18 +8,18 @@ body{
   font-family: 'Rock Salt', cursive;
 }
 .about{
-  background-color: #66CDAA
-  overflow: hidden;
+  background-color: #66CDAA;
+  overflow:hidden;
 }
 .loves{
-  background-color: #008B8B
+  background-color: #008B8B;
 
 }
 header{
-  background-color: #778899
+  background-color: #778899;
 }
 footer{
-  background-color: #9370DB
+  background-color: #9370DB;
 }
 header,
 footer,
@@ -37,6 +37,7 @@ footer {
 max-width: 350px;
 width: 500px;
 height: 350px;
+  border-radius:100%;
 }
 .beach,
 .cake{
