@@ -35,8 +35,8 @@ footer {
 .profile-img {
   float: right;
   margin-left: 20px;
-  height:400px;
-  width: 400px;
+  max-height:200px;
+  max-width: 200px;
   border-radius: 100%;
 }
 .codesister {
