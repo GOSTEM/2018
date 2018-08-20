@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+ font-family: 'Montserrat Alternates', sans-serif;
+margin:0;
+padding:0;
+}
+.about{
+   background-color: #4D6CFA;
+   overflow: hidden;
+   padding: 10px
+}
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+
+.loves{
+   background-color: #274690
+}
+.loves,
+footer {
+  text-align: center;
+}
+
+header{
+  background-color:#69DDFF
+}
+footer{
+  background-color: #4D6CFA
+}
+
+header,
+section,
+footer {
+  padding: 100px 150px;
+}
+
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+.technology{
+  border-radius:100%;
+}
+
+.softwareworld{
+border-radius:150%;
+}
+
+.development{
+  border-radius:15px;
+}
